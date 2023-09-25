@@ -1,0 +1,229 @@
+/* This file is reserved for overriding and extending the template styles. */
+.text-right{
+    text-align: right;
+}
+.main-green{
+    color: #82b542
+}
+.main-orange{
+    color: #ff4900
+}
+.main-gray{
+    color: #b2b3b2
+}
+.context-click-menu-style{
+    border: 1px solid #ff4900;
+    border-radius: 6px;
+    background: #fff;
+    color: #ff4900;
+    font-size: 0.8rem;
+    padding: 2px 4px;
+}
+.black-color {
+    color: #000;
+    font-weight: 500;
+}
+.modal .modal-title{
+    font-size: 0.9rem;
+    color: #ff4900;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eschool-checkbox input{
+    margin-right: 0.5rem;
+    vertical-align: inherit;
+}
+/************ datetime picker css ***********/
+.react-datepicker-wrapper{
+    width: auto !important;
+}
+.react-calendar{
+    width: 260px !important;
+}
+.react-datetime-picker .react-datetime-picker__wrapper{
+    border: none;
+}
+.react-datetime-picker .react-datetime-picker__wrapper .react-datetime-picker__button{
+    display: none;
+}
+.react-datetime-picker .react-datetime-picker__wrapper .react-datetime-picker__inputGroup{
+    padding: 0.65rem 1rem;
+    border-radius: 0.42rem;
+    border: 1px solid #919bc0;
+    text-align: center;
+    height: 37px;
+    line-height: 1;
+}
+.react-datepicker-wrapper .react-datepicker__input-container input{
+    display: block;
+    border: 1px solid #919bc0;
+    width: 100%;
+    height: calc(1.5em + 1.3rem + 2px);
+    padding: 0.65rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #464E5F;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 0.42rem;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+}
+/************ datetime picker css end ***********/
+/***************** date-picker-range-container css **************/
+.date-picker-range-container {
+    width: auto;
+    display: inline-flex;
+}
+.date-picker-range-container .first-datepicker{
+    height: 37px !important;
+    border-right-width: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.date-picker-range-container .last-datepicker{
+    height: 37px !important;
+    border-left-width: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.date-picker-range-container .first-timepicker{
+    height: 37px !important;
+    border-right-width: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.date-picker-range-container .last-timepicker{
+    height: 37px !important;
+    border-left-width: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.date-picker-range-container .react-datepicker-wrapper:nth-child(2){
+    font-size: 1.3rem;
+    width: auto !important;
+}
+.date-picker-range-container .react-datepicker-with-icon{
+    font-size: 1.37rem !important;
+}
+/***************** date-picker-range-container css end **************/
+/***************** dropdown css **************/
+.eschool-select.is-invalid > div:first-of-type {
+    border: 1px solid #F64E60 !important;
+    box-shadow: none;
+}
+/***************** dropdown css end **************/
+/***************** modal css **************/
+.modal-footer {
+    display: block;
+}
+/***************** modal css end **************/
+/***************** card css end **************/
+.card-header{
+    padding: 1rem 2.25rem !important;
+}
+.card-header-with-tab .card-header{
+    border-bottom: 2px solid rgba(255, 73, 0, 0.2) !important;
+}
+.card-header-tabs{
+    margin-bottom: -1rem !important;
+    margin-left: -2.25rem !important;
+}
+.card-header-tabs .nav-item{
+    margin-right: 0 !important;
+}
+.card-header-tabs .nav-item .nav-link{
+    position: relative;
+    top: 1px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.card-header-tabs .nav-item .nav-link.active{
+    position: relative;
+    top: 1px;
+    color: #ff4900;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #ff4900;
+}
+.nav .show > .nav-link, .nav .nav-link:hover:not(.disabled), .nav .nav-link.active{
+    position: relative;
+    top: 1px;
+    /*color: #29569f !important;*/
+    /*font-weight: 500;*/
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #ff4900;
+}
+/***************** card css end **************/
+
+
+
+/*&.separator-border-2 {*/
+/*     border-bottom-width: 2px;*/
+/* }*/
+
+/*&.separator-border-3 {*/
+/*     border-bottom-width: 3px;*/
+/* }*/
+
+/*&.separator-border-4 {*/
+/*     border-bottom-width: 4px;*/
+/* }*/
+
+/*// Theme colors*/
+/*@each $name, $color in $theme-colors {*/
+/*&.separator-#{$name} {*/
+/*    border-bottom-color: $color;*/
+/*}*/
+/*}*/
+/*}*/
+/***************** date-picker-range-container css end **************/
+
+/***************** DTable css **************/
+.react-bootstrap-table table{
+    table-layout: unset!important;
+} 
+/***************** DTable css end **************/
+
+/***************** Pinnacle fonts  **************/
+.pinnacle-regular{
+    font-family: PinnacleRegular;
+}
+.pinnacle-light{
+    font-family: PinnacleLight;
+}
+.pinnacle-bold{
+    font-family: PinnacleBold;
+}
+.pinnacle-medium{
+    font-family: PinnacleMedium;
+}
+.pinnacle-demi-bold{
+    font-family: PinnacleDemiBold;
+}
+.pinnacle-extra-bold{
+    font-family: PinnacleExtraBold;
+}
+/***************** Pinnacle Fonts end **************/
+/***************** Tree switcher icon style **************/
+.icon-with-tree .rc-tree.rc-tree-show-line .rc-tree-list .rc-tree-title{
+    margin-left: 10px;
+}
+.icon-with-tree .rc-tree.rc-tree-show-line .rc-tree-list .rc-tree-switcher img{
+    position: relative;
+    left: 14px;
+    top: 2px;
+}
+/***************** Tree switcher icon style **************/
+
+/***************** Toast override default font  **************/
+.Toastify__toast-body {
+    font-family: 'Mulish', sans-serif;
+}
+/***************** Toast override default font end **************/
